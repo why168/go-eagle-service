@@ -3,6 +3,13 @@
 [jupiter.server.grpc]
     port = 6055
 
+[jupiter.logger.default]
+    debug = false         # 是否在命令行输出
+    enableConsole = false # 是否按命令行格式输出
+    name = "default.log" # 日志名称
+    dir = "."             # 日志路径
+    level = "info"       # 调整日志级别，可以动态修改日志
+
 [jupiter.etcdv3.default]
     endpoints=["127.0.0.1:2379"]
     secure = false

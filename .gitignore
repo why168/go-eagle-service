@@ -6,3 +6,5 @@
 .vscode/
 vendor/
 main
+.DS_Store
+*.log
